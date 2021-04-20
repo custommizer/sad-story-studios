@@ -421,8 +421,8 @@ button {
 
 @media (max-width: 720px) {
     .logo img {
-        width: 50px;
-        height: 50px;
+        width: 40px;
+        height: 40px;
     }
     .container {
         width: auto;
@@ -464,11 +464,20 @@ button {
     .works-list {
         display: block;
     }
-    .works-item {
+    .works-items {
         width: 100%;
     }
     .work-title h1 {
         font-size: 20px;
+        margin-right: 10px;
+    }
+    .work-button {
+        width: 100px;
+        height: 50px;
+    }
+    .works-items img {
+        width: 200px;
+        height: 150px;
     }
     .port-images {
         display: block;
