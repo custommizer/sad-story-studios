@@ -486,13 +486,13 @@ button {
         width: 100%;
     }
     .footer-author p {
-        font-size: 10px;
+        font-size: 15px;
     }
     .footer-author h3 {
-        font-size: 18px;
+        font-size: 20px;
     }
     .footer-author img {
-        width: 50px;
-        height: 50px;
+        width: 80px;
+        height: 80px;
     }
 }
