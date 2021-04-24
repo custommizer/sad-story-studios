@@ -1,8 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,700;1,300&family=Oswald:wght@500&family=Pacifico&display=swap');
 header {
-    background-color: rgb(22, 22, 22);
+    background-color: rgb(6, 6, 36);
     font-family: 'Exo 2', sans-serif;
     width: 100%;
+    position: fixed;
+    z-index: 100;
+    border: solid 0.1px white;
 }
 
 html {
@@ -402,6 +405,7 @@ button {
     position: fixed;
     top: 0;
     left: 0;
+    z-index: 200;
 }
 
 .modal-close {
@@ -411,6 +415,7 @@ button {
     font-size: 24px;
     color: rgb(229, 226, 226);
     font-family: 'Exo 2', sans-serif;
+    z-index: 200;
 }
 
 @media print {
