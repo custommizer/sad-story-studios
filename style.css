@@ -432,7 +432,8 @@ button {
     }
     .container {
         width: auto;
-        margin: 0 10px;
+        margin-left: 10px;
+        margin-right: 10px;
     }
     .hello-words h1 {
         font-size: 32px;
@@ -461,21 +462,54 @@ button {
     .services-image {
         width: 90%;
     }
+    .services-image img {
+        margin-top: 10px;
+        width: 260px;
+        height: 180px;
+    }
     .services-list {
         flex-wrap: wrap;
     }
     .services-item {
         width: 40%;
     }
+    .services-item p {
+        font-size: 13px;
+    }
+    .services-item h3 {
+        font-size: 15px;
+    }
+    .services-text h2 {
+        font-size: 25px;
+    }
+    .services-text p {
+        font-size: 15px;
+    }
     .works-list {
         display: block;
     }
+    .work-title {
+        display: block;
+        align-items: none;
+        justify-content: none;
+    }
+    .work-button {
+        margin-bottom: 70px;
+    }
+    .work-button button {
+        padding: 20px 40px;
+    }
     .works-items {
-        width: 100%;
+        width: 90%;
+        margin-top: 25px;
     }
     .work-title h1 {
         font-size: 20px;
         margin-right: 10px;
+    }
+    .works-items:hover {
+        transform: none;
+        transition: none;
     }
     .work-button {
         width: 100px;
@@ -490,6 +524,12 @@ button {
     }
     .port-images img {
         width: 100%;
+        width: 200px;
+        height: 190px;
+    }
+    .port-images img:hover {
+        transform: none;
+        transition: none;
     }
     .footer-author p {
         font-size: 15px;
