@@ -355,7 +355,7 @@ button {
 
 .footer {
     background-color: rgb(22, 22, 22);
-    color: rgb(196, 190, 190);
+    color: rgb(235, 230, 230);
 }
 
 .footer-l {
@@ -370,14 +370,12 @@ button {
 
 .footer-author h3 {
     font-size: 40px;
-}
-
-.footer-author img {
-    width: 150px;
+    padding-top: 50px;
 }
 
 .footer-author p {
     padding: 20px;
+    font-size: 25px;
 }
 
 .footer-i img {
