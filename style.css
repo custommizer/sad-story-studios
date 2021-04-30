@@ -358,38 +358,18 @@ button {
     color: rgb(196, 190, 190);
 }
 
-.footer-links {
-    padding: 70px;
-    display: flex;
-    justify-content: space-between;
-}
-
-.footer-title {
-    font-weight: bold;
-    font-size: 25px;
-    width: 40%;
-}
-
-.footer-item {
-    color: #9999;
-    font-size: 20px;
-}
-
-.footer-list {
-    list-style: none;
-}
-
-.footer-item {
-    padding: 24px;
-}
-
 .footer-l {
     padding: 30px 0;
     text-align: center;
 }
 
 .footer-author {
-    width: 40%;
+    width: 100%;
+    text-align: center;
+}
+
+.footer-author h3 {
+    font-size: 40px;
 }
 
 .footer-author img {
@@ -398,6 +378,27 @@ button {
 
 .footer-author p {
     padding: 20px;
+}
+
+.footer-i img {
+    width: 150px;
+    height: 150px;
+}
+
+.footer-items {
+    margin-top: 80px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 80px;
+}
+
+.footer-i {
+    text-align: center;
+    width: 32%;
+}
+
+.footer-i a {
+    color: white;
 }
 
 .modal {
