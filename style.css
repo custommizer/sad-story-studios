@@ -328,29 +328,23 @@ button {
 }
 
 .sub-input {
-    width: 480px;
-    border: 1px solid black;
-    display: flex;
-    margin: 0 auto;
-    border-radius: 40px;
-    overflow: hidden;
-    box-shadow: 0 0 20px 0 rgb(114, 113, 113);
+    display: block;
 }
 
 .sub-input input {
-    width: 60%;
+    margin: 50px;
+    font-size: 20px;
+    width: 100%;
+    height: 60px;
     border: none;
-    outline: none;
-    padding: 12px 36px;
-    font-size: 18px;
+    border-bottom: solid 1px orange;
+    background-color: rgb(22, 22, 22);
+    color: rgb(229, 226, 226);
+    font-family: 'Exo 2', sans-serif;
 }
 
-.sub-input span {
-    width: 40%;
-    background-color: rgb(35, 0, 190);
-    color: white;
-    font-size: 16px;
-    padding: 12px;
+.sub-input button {
+    margin-bottom: 30px;
 }
 
 .footer {

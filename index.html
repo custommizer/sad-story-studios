@@ -265,8 +265,14 @@
                 <h1>Подпишитесь на нашу рассылку</h1>
                 <p>Для получение информации и спец предложений</p>
                 <div class="sub-input">
-                    <input type="text" placeholder="enter e-mail">
-                    <span>Подписаться</span>
+                    <form>
+
+                        <input type="text" id="number" placeholder="Ваш номер телефона и причина заявки" />
+                        <input type="text" id="name" placeholder="имя" />
+
+                    </form>
+                    <button onclick="sendMail()">Отправить заявку</button>
+
                 </div>
                 <p>Мы не рассылаем спам и не используем вашы личные данные</p>
             </div>
@@ -327,8 +333,29 @@
 <script>
     AOS.init();
 </script>
+<script src="https://smtpjs.com/v3/smtp.js">
+</script>
+
+<script>
+    function sendMail() {
+
+        let number = document.getElementById("number").value;
+        let name = document.getElementById("name").value;
 
 
+        Email.send({
+            Host: "smtp.elasticemail.com",
+            Username: "eldarazhbenov1@gmail.com",
+            Password: "2699BD2DAC1A7B2B0CC7D522DAB13BA50995",
+            To: "eldarazhbenov1@gmail.com",
+            From: "eldarazhbenov1@gmail.com",
+            Subject: `${name}`,
+            Body: `${number}`,
+        }).then(
+            message => alert(message)
+        );
+    }
+</script>
 
 
 
