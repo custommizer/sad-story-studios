@@ -182,8 +182,8 @@ button {
 }
 
 .works {
-    background-image: url('https://wallpaperaccess.com/full/1638137.png');
-    background-size: 100% 50%;
+    background-image: url('https://i.pinimg.com/originals/a4/8a/fd/a48afdecf6f21a6d22be5ee37258bb19.jpg');
+    background-size: 100%;
     background-repeat: no-repeat;
 }
 
@@ -212,6 +212,10 @@ button {
     transition: 0.3s ease-in-out;
 }
 
+.works-items a {
+    color: white;
+}
+
 .works-items h2 {
     font-size: 18px;
     color: rgb(229, 226, 226);
@@ -222,7 +226,7 @@ button {
 }
 
 .works-items p {
-    color: rgb(206, 203, 203)
+    color: rgb(231, 230, 230)
 }
 
 .works-items img {
@@ -332,19 +336,21 @@ button {
 }
 
 .sub-input input {
-    margin: 50px;
+    margin: 30px;
     font-size: 20px;
-    width: 100%;
+    width: 80%;
     height: 60px;
     border: none;
     border-bottom: solid 1px orange;
     background-color: rgb(22, 22, 22);
     color: rgb(229, 226, 226);
     font-family: 'Exo 2', sans-serif;
+    border-radius: 5px;
 }
 
 .sub-input button {
     margin-bottom: 30px;
+    padding: 30px;
 }
 
 .footer {
