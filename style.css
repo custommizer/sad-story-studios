@@ -43,12 +43,12 @@ a {
     margin-left: 18px;
 }
 
-.logo img {
-    margin: 0;
-    padding: 0;
+.nav img {
+    margin-left: 15px;
+    padding: 5px;
     float: left;
-    width: 80px;
-    height: 80px;
+    width: 75px;
+    height: 75px;
 }
 
 .welcome {
