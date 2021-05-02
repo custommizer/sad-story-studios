@@ -270,8 +270,9 @@
                 <div class="sub-input">
                     <form>
 
-                        <input type="text" id="number" placeholder="Ваш номер телефона и причина заявки" />
-                        <input type="text" id="name" placeholder="имя" />
+                        <input type="text" id="number" placeholder="   Ваш номер телефона и причина заявки" />
+                        <input type="email" id="mail" placeholder="   Ваша почта">
+                        <input type="text" id="name" placeholder="   имя" />
 
                     </form>
                     <button onclick="sendMail()">Отправить заявку</button>
@@ -344,6 +345,7 @@
 
         let number = document.getElementById("number").value;
         let name = document.getElementById("name").value;
+        let mail = document.getElementById("mail").value;
 
 
         Email.send({
@@ -352,6 +354,7 @@
             Password: "2699BD2DAC1A7B2B0CC7D522DAB13BA50995",
             To: "eldarazhbenov1@gmail.com",
             From: "eldarazhbenov1@gmail.com",
+            Mail: `${mail}`,
             Subject: `${name}`,
             Body: `${number}`,
         }).then(
