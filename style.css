@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Jura:wght@700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,700;1,300&family=Oswald:wght@500&family=Pacifico&display=swap');
 header {
     background-color: rgb(6, 6, 36);
@@ -66,7 +67,7 @@ a {
     font-weight: 700;
     font-size: 48px;
     line-height: 64px;
-    font-family: 'Exo 2', sans-serif;
+    font-family: 'Jura', sans-serif;
 }
 
 .hello-words {
@@ -92,6 +93,7 @@ a {
 
 .about-inner h1 {
     font-size: 40px;
+    font-family: 'Jura', sans-serif;
 }
 
 .about-inner h3 {
@@ -145,7 +147,8 @@ button {
 }
 
 .services h2 {
-    font-size: 40px;
+    font-size: 35px;
+    font-family: 'Jura', sans-serif;
 }
 
 .services p {
@@ -192,6 +195,7 @@ button {
     justify-content: space-between;
     text-align: center;
     margin-bottom: 120px;
+    font-family: 'Jura', sans-serif;
 }
 
 .work-title {
@@ -388,13 +392,14 @@ button {
 }
 
 .footer-author h3 {
-    font-size: 40px;
+    font-size: 35px;
     padding-top: 50px;
+    font-family: 'Jura', sans-serif;
 }
 
 .footer-author p {
     padding: 20px;
-    font-size: 25px;
+    font-size: 23px;
 }
 
 .footer-i img {
