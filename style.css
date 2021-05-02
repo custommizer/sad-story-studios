@@ -44,7 +44,6 @@ a {
 }
 
 .nav img {
-    margin-left: 15px;
     padding: 5px;
     float: left;
     width: 75px;
@@ -563,5 +562,24 @@ button {
     .footer-author img {
         width: 80px;
         height: 80px;
+    }
+    .footer-items {
+        display: block;
+        font-size: 12px;
+        margin-top: 40px;
+    }
+    .footer-i {
+        text-align: center;
+        width: 100%;
+        margin-bottom: 30px;
+    }
+    .footer-author h3 {
+        font-size: 30px;
+        padding-top: 50px;
+        font-family: 'Jura', sans-serif;
+    }
+    .footer-i img {
+        width: 100px;
+        height: 100px;
     }
 }
